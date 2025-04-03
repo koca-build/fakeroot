@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/koca-build/go-fakeroot"
-	"github.com/koca-build/go-fakeroot/loginshell"
+	"github.com/koca-build/fakeroot"
+	"github.com/koca-build/fakeroot/loginshell"
 )
 
 func main() {

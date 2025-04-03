@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"lure.sh/fakeroot"
-	"lure.sh/fakeroot/loginshell"
+	"github.com/koca-build/go-fakeroot"
+	"github.com/koca-build/go-fakeroot/loginshell"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"testing"
 
-	"lure.sh/fakeroot"
+	"github.com/koca-build/go-fakeroot"
 )
 
 func TestCommand(t *testing.T) {

@@ -1,3 +1,3 @@
-module lure.sh/fakeroot
+module github.com/koca-build/fakeroot
 
 go 1.21

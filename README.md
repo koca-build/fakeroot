@@ -1,6 +1,6 @@
 # fakeroot
 
-[![Go Reference](https://pkg.go.dev/badge/lure.sh/fakeroot.svg)](https://pkg.go.dev/lure.sh/fakeroot)
+[![Go Reference](https://pkg.go.dev/badge/github.com/koca-build/fakeroot.svg)](https://pkg.go.dev/github.com/koca-build/fakeroot)
 
 A pure-Go implementation of fakeroot using Linux user namespaces.
 
@@ -27,7 +27,7 @@ Also, many utilities may require root privileges for certain operations but migh
 This repo includdes a command-line utility called `nsfakeroot`. To install it, run the following command:
 
 ```bash
-go install lure.sh/fakeroot/cmd/nsfakeroot@latest
+go install github.com/koca-build/fakeroot/cmd/nsfakeroot@latest
 ```
 
 Running `nsfakeroot` on its own will start your login shell in the fakeroot environment. If you provide arguments, those will be used as the command.
